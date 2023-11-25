@@ -7,6 +7,7 @@ import java.util.List;
 public class ArrayListAndLinkedListExercise {
     public static void main(String[] args){
         List<Usuario> listaarray = new ArrayList<Usuario>();
+        listaarray.stream().forEach(System.out::println);
         List<Usuario> listalinked = new LinkedList<Usuario>();
         long antes;
         for(int i=0;i<1000000;i++)

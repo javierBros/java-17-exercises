@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class DequeExcercise {
-    /*public static void main(String[] args){
+    public static void main(String[] args){
         Deque<Integer> deq = new LinkedList<>();
         deq.offer(1); // adiciona un elemento a la derecha(a la cola)
         deq.add(2); // adiciona un elemento a la derecha(a la cola)
@@ -18,7 +18,7 @@ public class DequeExcercise {
         System.out.println(deq.peek());// retorna el elemento que está al extremo de la izquierda
         System.out.println(deq.element());// Al igual que peek retorna el elemento que está al extremo de la izquierda
         System.out.println("Está vacía: " + deq.isEmpty());// retorna el elemento de la queue
-    }*/
+    }
 
     /*[4, 3, 1, 2]
         4
@@ -28,7 +28,7 @@ public class DequeExcercise {
         2
         Está vacía: false*/
 
-    public static void main(String []argh)
+    /*public static void main(String []argh)
     {
         Scanner sc = new Scanner(System.in);
         Deque<Character> stack;
@@ -57,5 +57,5 @@ public class DequeExcercise {
             //Complete the code
         }
 
-    }
+    }*/
 }
